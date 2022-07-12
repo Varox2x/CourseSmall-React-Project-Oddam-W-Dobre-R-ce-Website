@@ -8,6 +8,7 @@ import {
     ContentWrapper,
     ContentWrapperColumn, MainTitle
 } from "../../../elements/home_page/hero_section";
+import Navigation from "../../navigation/Navigation";
 
 export default () => {
 
@@ -15,6 +16,7 @@ export default () => {
         <>
             <Container>
                 <Wrapper>
+                    <Navigation/>
                     <ColumnWrapper>
                         <Column><BackGround/></Column>
                         <Column>

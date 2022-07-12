@@ -13,4 +13,5 @@ export const Wrapper = styled.div`
   width: 100%;
   max-width: 1920px;
   border: 2px solid blue;
+  position: relative;
 `
